@@ -2,4 +2,8 @@
 const user = {
     name: "UserName",
     age: 18,
+    toString: function(){
+        console.log(`${this.name} ${this.age} `)
+    }
 }
+user.toString()
