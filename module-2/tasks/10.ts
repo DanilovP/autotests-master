@@ -1,6 +1,10 @@
 // Написать функцию которая меняет key и value местами. Гарантируется что в исходном объект value уникальны
-function objectReverse(obj: Record<string, string>):Record<string, string> {
-    return obj
+function objectReverse(obj) {
+    let res = {}
+    for (let i in obj){
+        res[obj[i]]=i
+    }
+    return res
 }
 
 const group = {

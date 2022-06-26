@@ -3,3 +3,6 @@ const user = {
     name: "UserName",
     age: 42
 }
+
+const user2 = {...user}
+console.log(user2) 

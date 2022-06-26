@@ -1,6 +1,11 @@
 // Подсчитать средний возраст группы
-function avgAge(group: Record<string, number>): number {
-    return 0
+function avgAge(group) {
+    let num = 0
+    let mem = Object.keys(group).length
+    for (let i in group){
+        num+=group[i]
+    }
+    return num/mem
 }
 
 const group = {

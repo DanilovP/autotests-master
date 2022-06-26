@@ -1,6 +1,7 @@
 // Создать функцию для подсчета кол-ва свойств в объекте
 function count(obj) {
-    return 0
+    let num=Object.keys(obj).length
+    return num
 }
 
 const group = {
