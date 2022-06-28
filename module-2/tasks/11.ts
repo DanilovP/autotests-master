@@ -1,5 +1,5 @@
 // Создать функцию для подсчета кол-ва свойств в объекте
-function count(obj) {
+function count(obj:any) {
     let num=Object.keys(obj).length
     return num
 }

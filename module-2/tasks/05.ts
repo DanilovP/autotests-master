@@ -1,6 +1,6 @@
 // Написать функцию, которая убирает дублирование в массиве строк
-function uniq(arr) {
-    let newarr = []
+function uniq(arr: string[]):string[] {
+    let newarr:string[] = []
     for (let i of arr){
         if (!newarr.includes(i)){
             newarr.push(i)
