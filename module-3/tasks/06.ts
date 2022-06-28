@@ -33,5 +33,5 @@
     
 }
 
-const test = new Calculator()
-console.log(test.add(6).sub(5).mul(6).div(2).getValue())
+const mycalc = new Calculator()
+console.log(mycalc.add(6).sub(5).mul(6).div(2).getValue())
